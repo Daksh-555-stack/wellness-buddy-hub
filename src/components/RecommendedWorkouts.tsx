@@ -16,7 +16,8 @@ const workouts = [
       "5 min warm-up jog",
       "10 min interval sprints",
       "5 min cool-down walk"
-    ]
+    ],
+    image: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80'
   },
   {
     id: '2',
@@ -31,7 +32,8 @@ const workouts = [
       "Mountain climbers - 4 sets of 30 sec",
       "Jump squats - 3 sets of 20",
       "Push-ups - 3 sets of 12"
-    ]
+    ],
+    image: 'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80'
   },
   {
     id: '3',
@@ -46,7 +48,8 @@ const workouts = [
       "Bench press - 4 sets of 10",
       "Rows - 3 sets of 12",
       "Shoulder press - 3 sets of 12"
-    ]
+    ],
+    image: 'https://images.unsplash.com/photo-1584466977773-e625c37cdd50?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80'
   },
   {
     id: '4',
@@ -61,7 +64,8 @@ const workouts = [
       "Warrior poses - 8 min",
       "Hip openers - 7 min",
       "Relaxation - 5 min"
-    ]
+    ],
+    image: 'https://images.unsplash.com/photo-1575052814086-f385e2e2ad1b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80'
   },
 ];
 
@@ -87,6 +91,7 @@ const RecommendedWorkouts = () => {
               liked={workout.liked}
               likes={workout.likes}
               exercises={workout.exercises}
+              image={workout.image}
               className="min-w-[280px]"
             />
           ))}
