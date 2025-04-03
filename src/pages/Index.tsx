@@ -4,7 +4,6 @@ import Header from '@/components/Header';
 import Sidebar from '@/components/Sidebar';
 import RecommendedWorkouts from '@/components/RecommendedWorkouts';
 import ChallengesBanner from '@/components/ChallengesBanner';
-import ActivityFeed from '@/components/ActivityFeed';
 import FriendSuggestions from '@/components/FriendSuggestions';
 import GoalProgress from '@/components/GoalProgress';
 
@@ -25,7 +24,6 @@ const Index = () => {
               <div className="lg:col-span-2 space-y-6">
                 <ChallengesBanner />
                 <RecommendedWorkouts />
-                <ActivityFeed />
               </div>
               
               {/* Right Sidebar */}
